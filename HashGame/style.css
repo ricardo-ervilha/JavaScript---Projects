@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #f5f5f5;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+
+.container{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6BF2E5;
+    height: 96vh;
+}
+
+li{
+    list-style-type: none;
+}
+
+.board{
+    height: 240px;
+    border: solid #F291A3;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    background-color: #7669a8;
+}
+
+.square img{
+    width: 80px;
+    height: 80px;
+}
+
+footer{
+    font-size: 18px;
+    padding: 5px;
+    color: #f5f5f5;
+    text-align: center;
+    background-color: #44D2F2;
+}
