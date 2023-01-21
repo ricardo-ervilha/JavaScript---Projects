@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="book-icon.png" type="image/x-icon">
+</head>
+<section><h1>Age Checker</h1></section>
+<body>
+    <div class="rectangle">
+        <div class="content">  
+            <span class="birth-date">Ano de Nascimento: <input class="data" type="date"></span>
+            <div class="gender">
+                <input type="radio" name="genero" class="radio-button" value="1" checked><span style="padding-left: 5px;">Masculino</span>
+                <input type="radio" name="genero" class="radio-button" value="2"><span style="padding-left: 5px;">Feminino</span>
+            </div>
+            <div class="verificar">
+                <input type="button" onclick="verificar()" class="botao" value="Verificar Idade">
+            </div>
+            <div class="generated-data">
+                <p class="paragrafo"></p>
+                <img class="img-placeholder" src="" alt="">
+            </div>
+        </div>    
+    </div>
+    <footer>&#169; Ricardo Ervilha</footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
