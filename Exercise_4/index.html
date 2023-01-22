@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 3</title>
+    <title>Exercise 4</title>
     <link rel="shortcut icon" href="book-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Let's count</h1>
+        <h1>Multiplication Table</h1>
     </header>
     <section>
         <div class="content">
             <div class="form">
                 <!--Conteúdo de input-->
-                <label for="begin">Begin: <input type="number" name="begin" id="begin"></label>
-                <label for="end">End: <input type="number" name="end" id="end"></label>
-                <label for="step">Step: <input type="number" name="step" id="step"></label>
-                <div class="botao">
-                    <button onclick="count()" class="btn">Count</button>
-                </div>
+                <label for="number">Number: <input type="number" name="number" id="num"></label>
+                <div class="botao"><button onclick="generateTable()" class="btn">Generate Multiplication Table</button></div>
+                <!--Colocar a parte do select-->
             </div>
             <div class="out">
                 <!--Conteúdo de output-->
-                <p>Preparing the count...</p>
-                <p></p>
+                <select name="table" id="sel" multiple>
+                </select>
             </div>
         </div>
     </section>
